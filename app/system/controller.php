@@ -1,11 +1,11 @@
 <?php
 
-	class system_controller
+class system_controller
+{
+	public $view;
+	function __construct()
 	{
-		public $view;
-		function __construct()
-		{
-			$this->view=new system_view;
-		}
+		$this->view=new system_view;
 	}
+}
 ?>

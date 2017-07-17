@@ -4,7 +4,7 @@
 		public $db;
 		function __construct()
 		{
-			$this->db=new system_db;
+			$this->db = new system_db;
 		}
 	}
 ?>

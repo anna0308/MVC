@@ -6,7 +6,7 @@
 	  <link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-	<h1><?php if(isset($this->status)){echo $this->status;}?></h1>
+		<h1><?php if(isset($this->status)){echo $this->status;}?></h1>
 		<div class="login-wrap">
 			<div class="login-html">
 				<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
@@ -51,10 +51,10 @@
 							<div class="foot-lnk">
 								<label for="tab-1">Already Member?</a>
 							</div>
-						</div>
+					</div>
 				</form>
-				</div>
 			</div>
+		</div>
 		</div>
 	</body>
 </html>
